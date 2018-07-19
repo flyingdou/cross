@@ -96,10 +96,10 @@
             </view>
           
             <view class="no-data-font no-data-font-1">今天没有训练计划</view>
-            <view class="no-data-font no-data-font-2">欢迎使用 [王严健身专家系统] 为自己定制健身计划</view>
+            <!-- <view class="no-data-font no-data-font-2">欢迎使用 [王严健身专家系统] 为自己定制健身计划</view> -->
 
             <!-- 底部按钮 -->
-            <view class="design_private" bindtap="gotoDesign_private">定制计划</view>
+            <!-- <view class="design_private" bindtap="gotoDesign_private">定制计划</view> -->
      </view>
 
      <!-- 当天有计划 -->
