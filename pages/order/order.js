@@ -208,7 +208,7 @@ Page({
     });
   },
 
- /**
+  /**
    * 用户输入真实姓名
    */
   changeRealName: function (e) {
@@ -278,15 +278,15 @@ Page({
     param.realName = this.data.realName;
     param.gender = this.data.gender;
     param.origin = this.data.origin;
-    if (this.data.product.weight) {
+    if(this.data.product.weight){
       param.weight = this.data.product.weight;
     }
-    if (this.data.product.shareMember) {
+    if(this.data.product.shareMember){
       param.shareMember = this.data.product.shareMember;
-    }
-    if (this.data.ticket) {
+    } 
+    if(this.data.ticket){
       param.ticket = this.data.ticket.ticketId;
-    }
+    } 
     if (this.data.product.priceId) {
       param.priceId = this.data.product.priceId;
     }
